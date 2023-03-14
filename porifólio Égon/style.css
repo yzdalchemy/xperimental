@@ -3,50 +3,42 @@
 }
 
 .header0 {
-    color:greenyellow;
+    color: greenyellow;
     font-size: 1em;
     padding: 1em 1em;
 }
 
 .header1 {
-    color:greenyellow;
+    color: greenyellow;
     font-size: 2em;
     padding: 1em 1em;
 }
 
 .header2 {
-     color:greenyellow;
+    color: greenyellow;
     font-size: 2em;
-     padding: 1em 1em;
+    padding: 1em 1em;
 }
 
 .main0 {
     text-align: center;
-    color:greenyellow;
+    color: greenyellow;
     font-size: 25px;
     padding: 1em 1em;
 }
 
 .listaMain {
-    text-align: center;
-    color:greenyellow;
+    color: greenyellow;
     font-size: 27px;
     padding: 1em 1em;
-    }
+    display: flex;
+    justify-content: center;
+}
 
 
 ul {
-    
-
-    
-}
-
-#listaMain1 {
-    text-align: center;
-    
-    
-    
-
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -56,14 +48,9 @@ body :hover {
     color: #F94162;
     translate: 3px;
     transition: 2s;
-    
-    }
+
+}
 
 body {
     background-image: url(tmatrix.jpg);
 }
-
-
-
-
-
